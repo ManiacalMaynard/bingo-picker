@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid pink;
-}
+} */
 
 body {
   width: 100%;
@@ -9,4 +9,26 @@ body {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  font-size: 2.5rem;
+  height: 3rem;
+  width: auto;
+}
+
+#resultNumber {
+  font-size: 5rem;
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons > div {
+  border: 1px solid red;
 }

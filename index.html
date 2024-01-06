@@ -13,6 +13,18 @@
   <body>
     <h1>Bingo Picker</h1>
     <p id="resultNumber">Let's get started!</p>
-    <button type="button" onclick="picker(possibles.length)">click it</button>
+    <div class="buttons">
+      <div type="button" class="square">
+        <a
+          href="https://www.github.com/ManiacalMaynard/bingo-picker"
+          target="_blank"
+          ><img src="images/square-github.svg" alt=""
+        /></a>
+      </div>
+      <button type="button" onclick="picker(possibles.length)">click it</button>
+      <div type="reset" onclick="reset()">
+        <img src="images/rotate-solid.svg" alt="" srcset="" />
+      </div>
+    </div>
   </body>
 </html>
